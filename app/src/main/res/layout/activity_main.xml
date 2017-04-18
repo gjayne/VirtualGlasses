@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context=".MainActivity" >
+
+
+    <TextureView
+        android:id="@+id/textureView"
+        android:layout_marginTop="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="50"
+        android:rotation="-90"
+        android:layout_gravity="center_vertical"/>
+
+    <TextureView
+        android:id="@+id/rightView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="50"
+        android:layout_gravity="center_vertical"
+        android:rotation="-90" />
+
+<!--
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="left"
+        android:layout_weight="62"
+        android:layout_marginLeft="50dp">
+        <TextureView
+            android:id="@+id/textureView"
+            android:layout_marginTop="0dp"
+            android:layout_width="175dp"
+            android:layout_height="275dp"
+            android:rotation="-90"
+            android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="right"
+        android:layout_weight="50"
+        android:layout_marginRight="62dp">
+
+            <TextureView
+                android:id="@+id/rightView"
+                android:layout_width="175dp"
+                android:layout_height="275dp"
+                android:layout_gravity="center_vertical"
+                android:rotation="-90" />
+
+    </LinearLayout>
+
+-->
+
+</LinearLayout>
